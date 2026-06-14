@@ -2,3 +2,8 @@ title: BuyHigh
 description: 무료 주식 AI 분석 플랫폼 — 차트·밸류에이션 분석부터 AI 리포트까지
 theme: jekyll-theme-cayman
 show_downloads: false
+
+# GitHub 저장소 뷰(GFM)와 달리 Jekyll 기본값은 HTML 블록 안의 마크다운을
+# 렌더링하지 않는다. README 헤더가 <div align="center"> 안에 있어 켜준다.
+kramdown:
+  parse_block_html: true
