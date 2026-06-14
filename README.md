@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="resources/logo/favicon.ico" width="72" alt="BuyHigh logo" />
+
 # 📈 BuyHigh
 
 **무료 주식 AI 분석 플랫폼**
@@ -30,11 +32,36 @@
 
 ## 주요 기능
 
-- 📊 **차트 분석** — 기술적 흐름을 AI가 자연어 리포트로 해석
-- 💰 **밸류에이션 분석** — 재무·가치 지표 기반의 적정가 관점 제공
-- 🎯 **종목 추천 분석** — 데이터 기반 종목 인사이트
-- 🤖 **AI 리포트** — 멀티 LLM(예: GPT·Gemini) 기반의 분석 생성
-- 🔎 **종목 검색** — 빠른 종목 탐색과 상세 정보
+- 📊 **차트 분석** — 캔들·이동평균·거래량을 AI가 자연어 리포트로 해석하고 대응 방안 제시
+- 💰 **밸류에이션 분석** — PER·PBR·ROE 등 핵심 지표 기반의 가치 판단과 리스크 요인 정리
+- 🎯 **종목 추천** — 데이터 기반 매매 추천과 포지션·구간 인사이트
+- 🤖 **AI 리포트** — 멀티 LLM(GPT·Gemini) 기반의 종목 분석 자동 생성
+- 🆓 **무료 분석 피드** — 매일 갱신되는 차트/밸류에이션 무료 분석 리스트
+
+## 스크린샷
+
+### 홈
+<div align="center">
+<img src="resources/screenshots/main.png" width="280" alt="홈 화면 — 지수, 무료 분석 진입, 매매 추천" />
+</div>
+
+### 차트 분석
+<div align="center">
+<img src="resources/screenshots/chart-main.png" width="280" alt="종목 차트 — 캔들·이동평균·거래량" />
+<img src="resources/screenshots/chart-analysis.png" width="280" alt="차트 AI 분석 — 대응 방안 리포트" />
+</div>
+
+### 밸류에이션 분석
+<div align="center">
+<img src="resources/screenshots/valuation-main.png" width="280" alt="밸류에이션 — 펀더멘탈 핵심 지표" />
+<img src="resources/screenshots/valuation-analysis.png" width="280" alt="밸류에이션 AI 분석 — 종합 판단 리포트" />
+</div>
+
+### 무료 분석 피드
+<div align="center">
+<img src="resources/screenshots/free-chart.png" width="280" alt="무료 차트 분석 리스트" />
+<img src="resources/screenshots/free-valuation.png" width="280" alt="무료 밸류에이션 분석 리스트" />
+</div>
 
 ## 기술 스택
 
@@ -47,19 +74,10 @@
 | Market Data | 한국투자증권 Open API |
 | Infra | Docker, Nginx, Cloudflare Tunnel |
 
-## 스크린샷
-
-> _스크린샷은 추후 추가 예정입니다._
-
-<!--
-![홈 화면](docs/screenshot-home.png)
-![분석 리포트](docs/screenshot-report.png)
--->
-
 ## 라이선스 · 소스
 
 소스 코드는 비공개(All rights reserved)이며, 이 레포에는 코드가 포함되어 있지 않습니다.
-서비스 관련 문의는 이슈 또는 아래 채널로 남겨주세요.
+서비스 관련 문의는 이슈로 남겨주세요.
 
 ---
 
