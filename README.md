@@ -42,27 +42,30 @@
 
 ## 스크린샷
 
-### 홈
+### 홈 및 인덱스
 <div align="center">
-<img src="resources/screenshots/main.png" width="280" alt="홈 화면 — 지수, 무료 분석 진입, 매매 추천" />
+<img src="resources/screenshots/home.png" width="280" alt="홈 — 지수·환율, 차트/밸류 분석 진입, 매매 추천" />
+<img src="resources/screenshots/market-indices.png" width="280" alt="주요 지수 — KOSPI·NASDAQ·S&P500 등과 원/달러 환율" />
 </div>
 
-### 차트 분석
+### 차트
 <div align="center">
-<img src="resources/screenshots/chart-main.png" width="280" alt="종목 차트 — 캔들·이동평균·거래량" />
-<img src="resources/screenshots/chart-analysis.png" width="280" alt="차트 AI 분석 — 대응 방안 리포트" />
+<img src="resources/screenshots/chart-basic.png" width="280" alt="기본 — 캔들·이동평균·거래량·RSI" />
+<img src="resources/screenshots/chart-supply.png" width="280" alt="기타 수급 — 프로그램·순매수 추이" />
+<img src="resources/screenshots/chart-trend.png" width="280" alt="추세 — 상대강도·옵션 Max Pain·52주 위치" />
 </div>
 
-### 밸류에이션 분석
+### 밸류에이션
 <div align="center">
-<img src="resources/screenshots/valuation-main.png" width="280" alt="밸류에이션 — 펀더멘탈 핵심 지표" />
-<img src="resources/screenshots/valuation-analysis.png" width="280" alt="밸류에이션 AI 분석 — 종합 판단 리포트" />
+<img src="resources/screenshots/valuation-fundamental.png" width="280" alt="펀더멘탈 — 예상 실적·EPS·PER" />
+<img src="resources/screenshots/valuation-sector.png" width="280" alt="섹터·테마 — 테마 구성 종목" />
+<img src="resources/screenshots/valuation-disclosure.png" width="280" alt="뉴스·공시 — 자사주·공시 내역" />
 </div>
 
-### 무료 분석 피드
+### 분석
 <div align="center">
-<img src="resources/screenshots/free-chart.png" width="280" alt="무료 차트 분석 리스트" />
-<img src="resources/screenshots/free-valuation.png" width="280" alt="무료 밸류에이션 분석 리스트" />
+<img src="resources/screenshots/chart-ai-analysis.png" width="280" alt="차트 AI 분석 — 차트 기반 대응 방안 리포트" />
+<img src="resources/screenshots/valuation-ai-analysis.png" width="280" alt="밸류에이션 AI 분석 — 적정주가·종합 판단 리포트" />
 </div>
 
 ## 기술 스택

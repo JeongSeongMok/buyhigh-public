@@ -42,27 +42,30 @@
 
 ## スクリーンショット
 
-### ホーム
+### ホーム・指数
 <div align="center">
-<img src="resources/screenshots/main.png" width="280" alt="ホーム — 指数、無料分析への導線、売買推奨" />
+<img src="resources/screenshots/home.png" width="280" alt="ホーム — 指数・為替、チャート／バリュエーション分析への導線、売買推奨" />
+<img src="resources/screenshots/market-indices.png" width="280" alt="主要指数 — KOSPI・NASDAQ・S&P500 などとドル/ウォン為替" />
 </div>
 
-### チャート分析
+### チャート
 <div align="center">
-<img src="resources/screenshots/chart-main.png" width="280" alt="銘柄チャート — ローソク足・移動平均・出来高" />
-<img src="resources/screenshots/chart-analysis.png" width="280" alt="チャートAI分析 — 対応方針レポート" />
+<img src="resources/screenshots/chart-basic.png" width="280" alt="基本 — ローソク足・移動平均・出来高・RSI" />
+<img src="resources/screenshots/chart-supply.png" width="280" alt="需給 — プログラム・純買い越し推移" />
+<img src="resources/screenshots/chart-trend.png" width="280" alt="トレンド — 相対強度・オプションMax Pain・52週位置" />
 </div>
 
-### バリュエーション分析
+### バリュエーション
 <div align="center">
-<img src="resources/screenshots/valuation-main.png" width="280" alt="バリュエーション — ファンダメンタルの主要指標" />
-<img src="resources/screenshots/valuation-analysis.png" width="280" alt="バリュエーションAI分析 — 総合判断レポート" />
+<img src="resources/screenshots/valuation-fundamental.png" width="280" alt="ファンダメンタル — 予想実績・EPS・PER" />
+<img src="resources/screenshots/valuation-sector.png" width="280" alt="セクター・テーマ — テーマ構成銘柄" />
+<img src="resources/screenshots/valuation-disclosure.png" width="280" alt="ニュース・開示 — 自社株・開示内容" />
 </div>
 
-### 無料分析フィード
+### 分析
 <div align="center">
-<img src="resources/screenshots/free-chart.png" width="280" alt="無料チャート分析リスト" />
-<img src="resources/screenshots/free-valuation.png" width="280" alt="無料バリュエーション分析リスト" />
+<img src="resources/screenshots/chart-ai-analysis.png" width="280" alt="チャートAI分析 — チャートに基づく対応方針レポート" />
+<img src="resources/screenshots/valuation-ai-analysis.png" width="280" alt="バリュエーションAI分析 — 適正株価・総合判断レポート" />
 </div>
 
 ## 技術スタック

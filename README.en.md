@@ -42,27 +42,30 @@ It turns complex charts and financial metrics into reports anyone can understand
 
 ## Screenshots
 
-### Home
+### Home & Indices
 <div align="center">
-<img src="resources/screenshots/main.png" width="280" alt="Home — indices, free analysis entry, trade recommendations" />
+<img src="resources/screenshots/home.png" width="280" alt="Home — indices & FX, chart/valuation entry, trade recommendations" />
+<img src="resources/screenshots/market-indices.png" width="280" alt="Market indices — KOSPI, NASDAQ, S&P500 and USD/KRW rate" />
 </div>
 
-### Chart Analysis
+### Chart
 <div align="center">
-<img src="resources/screenshots/chart-main.png" width="280" alt="Stock chart — candles, moving averages, volume" />
-<img src="resources/screenshots/chart-analysis.png" width="280" alt="Chart AI analysis — actionable report" />
+<img src="resources/screenshots/chart-basic.png" width="280" alt="Basic — candles, moving averages, volume, RSI" />
+<img src="resources/screenshots/chart-supply.png" width="280" alt="Supply & demand — program trading, net buy/sell flow" />
+<img src="resources/screenshots/chart-trend.png" width="280" alt="Trend — relative strength, options Max Pain, 52-week position" />
 </div>
 
-### Valuation Analysis
+### Valuation
 <div align="center">
-<img src="resources/screenshots/valuation-main.png" width="280" alt="Valuation — key fundamental metrics" />
-<img src="resources/screenshots/valuation-analysis.png" width="280" alt="Valuation AI analysis — comprehensive report" />
+<img src="resources/screenshots/valuation-fundamental.png" width="280" alt="Fundamentals — earnings forecast, EPS, PER" />
+<img src="resources/screenshots/valuation-sector.png" width="280" alt="Sector & theme — peer constituents" />
+<img src="resources/screenshots/valuation-disclosure.png" width="280" alt="News & disclosures — buybacks, filings" />
 </div>
 
-### Free Analysis Feed
+### Analysis
 <div align="center">
-<img src="resources/screenshots/free-chart.png" width="280" alt="Free chart analysis list" />
-<img src="resources/screenshots/free-valuation.png" width="280" alt="Free valuation analysis list" />
+<img src="resources/screenshots/chart-ai-analysis.png" width="280" alt="Chart AI analysis — chart-based actionable report" />
+<img src="resources/screenshots/valuation-ai-analysis.png" width="280" alt="Valuation AI analysis — fair value & comprehensive report" />
 </div>
 
 ## Tech Stack
