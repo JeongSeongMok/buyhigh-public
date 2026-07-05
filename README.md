@@ -29,43 +29,30 @@
 
 ## 소개
 
-**BuyHigh**는 국내 주식 종목에 대한 **무료 AI 분석 리포트**를 제공하는 웹 플랫폼입니다.
+**BuyHigh**는 국내·미국 주식 종목에 대한 **무료 AI 분석 리포트**를 제공하는 웹 플랫폼입니다.
 복잡한 차트와 재무 지표를, 누구나 이해할 수 있는 분석 리포트로 풀어냅니다.
 
 ## 주요 기능
 
-- **차트 분석** — 캔들·이동평균·거래량을 AI가 자연어 리포트로 해석하고 대응 방안 제시
-- **밸류에이션 분석** — PER·PBR·ROE 등 핵심 지표 기반의 가치 판단과 리스크 요인 정리
-- **종목 추천** — 데이터 기반 매매 추천과 포지션·구간 인사이트
-- **AI 리포트** — 멀티 LLM(GPT·Gemini) 기반의 종목 분석 자동 생성
-- **무료 분석 피드** — 매일 갱신되는 차트/밸류에이션 무료 분석 리스트
+- **차트 AI 분석** — 추세·모멘텀·변동성·수급을 종합해 포지션(상방·중립·하방)과 구간을 판단하고, 지지·저항선과 대응 방안 제시
+- **가치(밸류에이션) AI 분석** — 성장성·재무상태·기업가치를 평가하고 적정주가 밴드를 산출해 저평가/고평가 판단
+- **매매 추천** — 차트·가치 분석을 종합한 매수/관망/매도 시그널과 추천 시점 이후 수익률 추적
+- **국내·미국 주식 지원** — KOSPI·KOSDAQ부터 NASDAQ·NYSE·AMEX 종목까지 동일한 분석 제공
+- **인터랙티브 차트** — 이동평균·볼린저밴드·일목균형표·RSI 등 지표를 갖춘 종목 상세 차트
+- **매일 무료 분석 피드** — 거래대금 상위 종목의 리포트를 매일 자동 생성, 로그인 없이 누구나 열람
+- **멀티 LLM 에이전트** — Gemini·GPT 에이전트가 시세·수급·재무·뉴스 데이터를 직접 조회해 리포트 작성
 
 ## 스크린샷
 
-### 홈 및 인덱스
+### 메인
 <div align="center">
-<img src="resources/screenshots/home.png" width="280" alt="홈 — 지수·환율, 차트/밸류 분석 진입, 매매 추천" />
-<img src="resources/screenshots/market-indices.png" width="280" alt="주요 지수 — KOSPI·NASDAQ·S&P500 등과 원/달러 환율" />
-</div>
-
-### 차트
-<div align="center">
-<img src="resources/screenshots/chart-basic.png" width="280" alt="기본 — 캔들·이동평균·거래량·RSI" />
-<img src="resources/screenshots/chart-supply.png" width="280" alt="기타 수급 — 프로그램·순매수 추이" />
-<img src="resources/screenshots/chart-trend.png" width="280" alt="추세 — 상대강도·옵션 Max Pain·52주 위치" />
-</div>
-
-### 밸류에이션
-<div align="center">
-<img src="resources/screenshots/valuation-fundamental.png" width="280" alt="펀더멘탈 — 예상 실적·EPS·PER" />
-<img src="resources/screenshots/valuation-sector.png" width="280" alt="섹터·테마 — 테마 구성 종목" />
-<img src="resources/screenshots/valuation-disclosure.png" width="280" alt="뉴스·공시 — 자사주·공시 내역" />
+<img src="resources/screenshots/main.png" width="280" align="top" alt="메인 — 지수·환율, 차트/밸류 분석 진입, 매매 추천" />
 </div>
 
 ### 분석
 <div align="center">
-<img src="resources/screenshots/chart-ai-analysis.png" width="280" alt="차트 AI 분석 — 차트 기반 대응 방안 리포트" />
-<img src="resources/screenshots/valuation-ai-analysis.png" width="280" alt="밸류에이션 AI 분석 — 적정주가·종합 판단 리포트" />
+<img src="resources/screenshots/chart.png" width="280" align="top" alt="차트 분석 — 캔들·이동평균·거래량과 AI 리포트" />
+<img src="resources/screenshots/valuation.png" width="280" align="top" alt="가치 분석 — 핵심 지표 기반 밸류에이션과 AI 리포트" />
 </div>
 
 ## 기술 스택
@@ -76,7 +63,6 @@
 | AI | Spring AI (OpenAI · Google GenAI), MCP Server |
 | Frontend | Thymeleaf, HTML/CSS/JS |
 | Data | Redis (세션·캐시) |
-| Market Data | 한국투자증권 Open API |
 | Infra | Docker, Nginx, Cloudflare Tunnel |
 
 ## 라이선스 · 소스

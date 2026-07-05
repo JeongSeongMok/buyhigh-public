@@ -29,43 +29,30 @@
 
 ## 概要
 
-**BuyHigh** は、韓国株の銘柄に対して **無料のAI分析レポート** を提供するWebプラットフォームです。
+**BuyHigh** は、韓国株・米国株の銘柄に対して **無料のAI分析レポート** を提供するWebプラットフォームです。
 複雑なチャートや財務指標を、誰にでも理解できる分析レポートに変換します。
 
 ## 主な機能
 
-- **チャート分析** — ローソク足・移動平均・出来高をAIが自然言語のレポートに解釈し、対応方針を提示
-- **バリュエーション分析** — PER・PBR・ROE などの主要指標に基づく価値判断とリスク要因の整理
-- **銘柄推奨** — データに基づく売買アイデアと、ポジション・レンジのインサイト
-- **AIレポート** — 複数のLLM（GPT・Gemini）による銘柄分析の自動生成
-- **無料分析フィード** — 毎日更新されるチャート／バリュエーションの無料分析リスト
+- **チャートAI分析** — トレンド・モメンタム・ボラティリティ・需給を総合してポジション（上方・中立・下方）と局面を判定し、サポート・レジスタンスと対応方針を提示
+- **バリュエーションAI分析** — 成長性・財務状態・企業価値を評価し、適正株価バンドを算出して割安/割高を判断
+- **売買推奨** — チャート・バリュエーション分析を統合した買い/様子見/売りシグナルと、推奨時点以降のリターン追跡
+- **韓国株・米国株対応** — KOSPI・KOSDAQ から NASDAQ・NYSE・AMEX 銘柄まで同じ分析を提供
+- **インタラクティブチャート** — 移動平均・ボリンジャーバンド・一目均衡表・RSI などの指標を備えた銘柄詳細チャート
+- **毎日の無料分析フィード** — 売買代金上位銘柄のレポートを毎日自動生成、ログイン不要で誰でも閲覧可能
+- **マルチLLMエージェント** — Gemini・GPT エージェントが株価・需給・財務・ニュースデータを直接照会してレポートを作成
 
 ## スクリーンショット
 
-### ホーム・指数
+### ホーム
 <div align="center">
-<img src="resources/screenshots/home.png" width="280" alt="ホーム — 指数・為替、チャート／バリュエーション分析への導線、売買推奨" />
-<img src="resources/screenshots/market-indices.png" width="280" alt="主要指数 — KOSPI・NASDAQ・S&P500 などとドル/ウォン為替" />
-</div>
-
-### チャート
-<div align="center">
-<img src="resources/screenshots/chart-basic.png" width="280" alt="基本 — ローソク足・移動平均・出来高・RSI" />
-<img src="resources/screenshots/chart-supply.png" width="280" alt="需給 — プログラム・純買い越し推移" />
-<img src="resources/screenshots/chart-trend.png" width="280" alt="トレンド — 相対強度・オプションMax Pain・52週位置" />
-</div>
-
-### バリュエーション
-<div align="center">
-<img src="resources/screenshots/valuation-fundamental.png" width="280" alt="ファンダメンタル — 予想実績・EPS・PER" />
-<img src="resources/screenshots/valuation-sector.png" width="280" alt="セクター・テーマ — テーマ構成銘柄" />
-<img src="resources/screenshots/valuation-disclosure.png" width="280" alt="ニュース・開示 — 自社株・開示内容" />
+<img src="resources/screenshots/main.png" width="280" align="top" alt="ホーム — 指数・為替、チャート／バリュエーション分析への導線、売買推奨" />
 </div>
 
 ### 分析
 <div align="center">
-<img src="resources/screenshots/chart-ai-analysis.png" width="280" alt="チャートAI分析 — チャートに基づく対応方針レポート" />
-<img src="resources/screenshots/valuation-ai-analysis.png" width="280" alt="バリュエーションAI分析 — 適正株価・総合判断レポート" />
+<img src="resources/screenshots/chart.png" width="280" align="top" alt="チャート分析 — ローソク足・移動平均・出来高とAIレポート" />
+<img src="resources/screenshots/valuation.png" width="280" align="top" alt="バリュエーション分析 — 主要指標に基づく評価とAIレポート" />
 </div>
 
 ## 技術スタック
@@ -76,7 +63,6 @@
 | AI | Spring AI (OpenAI · Google GenAI), MCP Server |
 | Frontend | Thymeleaf, HTML/CSS/JS |
 | Data | Redis（セッション・キャッシュ） |
-| Market Data | 韓国投資証券 Open API |
 | Infra | Docker, Nginx, Cloudflare Tunnel |
 
 ## ライセンス・ソース
