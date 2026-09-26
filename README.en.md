@@ -29,7 +29,7 @@ From chart & valuation analysis to AI reports — all in one place.
 
 ## About
 
-**BuyHigh** is a web platform that provides **free AI analysis reports** for Korean and US stocks.
+**BuyHigh** is a web platform that provides **free AI analysis reports** for Korean, US and Japan stocks.
 It turns complex charts and financial metrics into reports anyone can understand.
 
 ## Features
